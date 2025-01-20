@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mini Zoom App</string>
+    <string name="start_call">Start Call</string>
+    <string name="end_call">End Call</string>
+</resources>
