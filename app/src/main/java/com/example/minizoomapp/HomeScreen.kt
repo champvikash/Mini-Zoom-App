@@ -14,13 +14,10 @@ import io.agora.rtc2.video.VideoCanvas
 
 class HomeScreen : AppCompatActivity() {
     private lateinit var binding: ActivityHomeScreenBinding
-    private val frontAppId = "ad42da4a4d8d48d8ab16b0308abca45c"
-    private val backAppId = "22b5e1ef429340b2b4aaa7ed674566df"
-    private val frontToken =
-        "007eJxTYOjjWXIr/tHcvFN/uSvulFy8Ov/5pPLdgvVHuLsLncxOXFmiwJCYYmKUkmiSaJJikWJikWKRmGRolmRgbABkJCeamCazLO5JbwhkZKhZspmZkQECQXxuhtzMvMyq/PzcxIICBgYAOhIlgw=="
-
-    private val backToken =
-        "007eJxTYMj4/Fj/rnrx1XkfRM4fc91zaceiP5eNRDdMUv0qfPn1Jj9hBQYjoyTTVMPUNBMjS2MTgySjJJPExETz1BQzcxNTM7OUNOs3PekNgYwMnBLNDIxQCOJzM+Rm5mVW5efnJhYUMDAAADe3JMM="
+    private val frontAppId = ""
+    private val backAppId = ""
+    private val frontToken = ""
+    private val backToken = ""
     private val frontChannelName = "minizoomapp"
     private val backChannelName = "minizoomapp"
 

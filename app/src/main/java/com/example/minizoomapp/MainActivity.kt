@@ -16,11 +16,10 @@ import io.agora.rtc2.video.VideoEncoderConfiguration
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
-    private val myAppId = "ad42da4a4d8d48d8ab16b0308abca45c"
+    private val myAppId =
+        Constant.appId
     private val channelName = "minizoomapp"
-    private val token =
-        "007eJxTYOjjWXIr/tHcvFN/uSvulFy8Ov/5pPLdgvVHuLsLncxOXFmiwJCYYmKUkmiSaJJikWJikWKRmGRolmRgbABkJCeamCazLO5JbwhkZKhZspmZkQECQXxuhtzMvMyq/PzcxIICBgYAOhIlgw=="
-
+    private val token = Constant.token
     private var localUid = 0 // Default local UID
     private var remoteUid: Int? = null
 
